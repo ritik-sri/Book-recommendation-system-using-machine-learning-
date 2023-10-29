@@ -53,21 +53,21 @@ if st.button('Show Recommendation'):
     col1, col2, col3, col4, col5 = st.columns(5)
 
     with col1:
-        st.text(recommendation_books[1])   # [0] will be the same book as in the search box
-        st.image(poster_url[1])
+        st.text(recommendation_books[0])   # [0] will be the same book as in the search box
+        st.image(poster_url[0])
 
     with col2:
+        st.text(recommendation_books[1])   
+        st.image(poster_url[1])
+
+    with col3:
         st.text(recommendation_books[2])   
         st.image(poster_url[2])
 
-    with col3:
+    with col4:
         st.text(recommendation_books[3])   
         st.image(poster_url[3])
 
-    with col4:
+    with col5:
         st.text(recommendation_books[4])   
         st.image(poster_url[4])
-
-    with col5:
-        st.text(recommendation_books[5])   
-        st.image(poster_url[5])
