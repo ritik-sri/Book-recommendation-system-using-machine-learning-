@@ -1,0 +1,9 @@
+streamlit
+numpy
+scikit-learn
+
+#local packages
+-e .
+
+# whenever you run this "requirements.txt" file, it will identify the setup.py file and it will
+# install all the packages that are mentioned in that file
